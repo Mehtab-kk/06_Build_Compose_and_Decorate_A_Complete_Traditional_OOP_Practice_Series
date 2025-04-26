@@ -7,7 +7,7 @@ class Employee:
 # Create an object
 emp = Employee("Mehtab", 45000, "123-45-6789")
 
-# Accessing variables from outside the class:
+
 print("Public (name):", emp.name)        # Works ✅
 print("Protected (_salary):", emp._salary)  # Works but discouraged (convention) ⚠️
 print("Private (__ssn):", emp.__ssn)     # Fails ❌ (AttributeError)
